@@ -1,0 +1,28 @@
+theme: jekyll-theme-minimal
+
+title: APEX-Vanguard
+description: Strategic Operations Consulting & SOP Development
+url: https://fisbeckbrian-blip.github.io/APEX-Vanguard
+
+# Navigation
+nav_links:
+  Home: /
+  Services: /services.md
+  About: /about.md
+
+# GitHub Pages settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+future: false
+lsi: false
+safe: true
